@@ -8,7 +8,7 @@
     tools:context=".MainActivity">
 
     <SearchView
-        android:id="@+id/SV"
+        android:id="@+id/searchView"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:background="@drawable/searchviewshapemine"
@@ -32,9 +32,9 @@
         android:layout_marginEnd="116dp"
         android:text="delhi"
         android:textColor="@color/black"
-        app:layout_constraintEnd_toEndOf="@id/SV"
-        app:layout_constraintTop_toBottomOf="@+id/SV"
-        app:layout_constraintStart_toStartOf="@id/SV"
+        app:layout_constraintEnd_toEndOf="@id/searchView"
+        app:layout_constraintTop_toBottomOf="@+id/searchView"
+        app:layout_constraintStart_toStartOf="@id/searchView"
         android:id="@+id/location"/>
 
     <com.airbnb.lottie.LottieAnimationView
